@@ -1,0 +1,26 @@
+<div style="background-color: aliceblue;">
+    <div style="margin-left:35%; height: 400px; width: 400px;">
+        <label>   
+            <div class="flashcard" [class.flipped]="flipped" (click)="toggle()">
+                <div class="front" style="text-align: center; align-content: center;">
+                  <span> <strong> {{words[selection].word}} </strong> </span>
+              </div>
+                <div class="back" style="text-align: center; align-content: center;"><strong>{{words[selection].meaning}}</strong></div>
+            </div>
+        </label>
+        <pre>
+
+        </pre>
+        <div style="margin-left: 5%; flex-direction: row;">
+            <button type="button" class="btn btn-secondary" style="margin-left: 16px; margin-right: 16px;"  (click)="previous()">Previous</button>
+            <button type="button" class="btn btn-warning" style="margin-left: 16px; margin-right: 16px;" (click)="random()">Random</button>
+            <button type="button" class="btn btn-primary" style="margin-left: 16px; margin-right: 16px;" (click)="next()">Next</button>
+        </div>
+    </div>
+    
+    
+    
+</div>
+
+
+
