@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import wordjs from "../../resources/words.json"
+import { delay } from 'rxjs';
 
 @Component({
   selector: 'app-card',
@@ -43,6 +44,7 @@ export class CardComponent implements OnInit{
   }
 
   previous(){
+    this.flipDefault();
     console.log(this.selection);
     if( this.selection-1 >= 0) {
       this.selection = this.selection - 1;
@@ -52,16 +54,23 @@ export class CardComponent implements OnInit{
   }
 
   random(){
+    this.flipDefault();
     this.selection = this.getRandomInt(this.words.length);
   }
 
   next(){
+    this.flipDefault();
     console.log(this.selection);
     if(this.words.length > this.selection+1) {
       this.selection = this.selection + 1;
       return;
     }
     this.selection = 0;
+  }
+
+  flipDefault(){
+    this.flipped = false;
+    //delay (1000);
   }
 
    getRandomInt(max:number) {

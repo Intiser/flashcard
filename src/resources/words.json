@@ -1,382 +1,127 @@
 [
-    {
-        "word": "Einkaufsliste",
-        "meaning": "shopping list"
-    },
-    {
-        "word": "Stofftasche",
-        "meaning": "cloth bag"
-    },
-    {
-        "word": "Plastiktüte",
-        "meaning": "plastic bag"
-    },
-    {
-        "word": "Wechselgeld",
-        "meaning": "change"
-    },
-    {
-        "word": "Karte",
-        "meaning": "card"
-    },
-    {
-        "word": "EC-Karte",
-        "meaning": "cash card (debit card)"
-    },
-    {
-        "word": "Kreditkarte",
-        "meaning": "credit card"
-    },
-    {
-        "word": "Kundenkarte",
-        "meaning": "customer card"
-    },
-    {
-        "word": "Kassenbon / Kassenzettel",
-        "meaning": "sales receipt"
-    },
-    {
-        "word": "Lebensmittel",
-        "meaning": "groceries"
-    },
-    {
-        "word": "Kleidung",
-        "meaning": "clothes"
-    },
-    {
-        "word": "Elektronik",
-        "meaning": "electronics"
-    },
-    {
-        "word": "Möbel",
-        "meaning": "furniture"
-    },
-    {
-        "word": "Dekoration",
-        "meaning": "decoration"
-    },
-    {
-        "word": "Waage",
-        "meaning": "scales"
-    },
-    {
-        "word": "Kilogramm",
-        "meaning": "kilogram"
-    },
-    {
-        "word": "Gramm",
-        "meaning": "gram"
-    },
-    {
-        "word": "Milliliter",
-        "meaning": "millilitre"
-    },
-    {
-        "word": "Liter",
-        "meaning": "litre"
-    },
-    {
-        "word": "Zentimeter",
-        "meaning": "centimetre"
-    },
-    {
-        "word": "Meter",
-        "meaning": "meter"
-    },
-    {
-        "word": "Länge",
-        "meaning": "length"
-    },
-    {
-        "word": "Höhe",
-        "meaning": "height"
-    },
-    {
-        "word": "Breite",
-        "meaning": "width"
-    },
-    {
-        "word": "Tiefe",
-        "meaning": "depth"
-    },
-    {
-        "word": "Größe",
-        "meaning": "size"
-    },
-    {
-        "word": "Ich trinke",
-        "meaning": "I drink"
-    },
-    {
-        "word": "Wir lernen",
-        "meaning": "We learn"
-    },
-    {
-        "word": "Carlos wohnt",
-        "meaning": "Carlos lives"
-    },
-    {
-        "word": "Mein Freund kommt",
-        "meaning": "My friend comes"
-    },
-    {
-        "word": "Der Apfelkuchen schmeckt",
-        "meaning": "The apple cake tastes"
-    },
-    {
-        "word": "Mein Zimmer ist",
-        "meaning": "My room is"
-    },
-    {
-        "word": "Barbara hat zwei",
-        "meaning": "Barbara has two"
-    },
-    {
-        "word": "viel",
-        "meaning": "Much/Many"
-    },
-    {
-        "word": "hier",
-        "meaning": "Here"
-    },
-    {
-        "word": "fertig",
-        "meaning": "Ready/Finished"
-    },
-    {
-        "word": "nicht",
-        "meaning": "Not"
-    },
-    {
-        "word": "sehr gut",
-        "meaning": "Very good"
-    },
-    {
-        "word": "schnell",
-        "meaning": "Fast"
-    },
-    {
-        "word": "groß",
-        "meaning": "Big"
-    },
-    {
-        "word": "drum",
-        "meaning": "Therefore"
-    },
-    {
-        "word": "hell",
-        "meaning": "Bright"
-    },
-    {
-        "word": "jung",
-        "meaning": "Young"
-    },
-    {
-        "word": "falsch",
-        "meaning": "Wrong"
-    },
-    {
-        "word": "Hunger",
-        "meaning": "Hunger"
-    },
-    {
-        "word": "Ökonomie",
-        "meaning": "Economics"
-    },
-    {
-        "word": "Kuchen",
-        "meaning": "Cake"
-    },
-    {
-        "word": "Humor",
-        "meaning": "Humor"
-    },
-    {
-        "word": "Chemie",
-        "meaning": "Chemistry"
-    },
-    {
-        "word": "Kaffee",
-        "meaning": "Coffee"
-    },
-    {
-        "word": "Dach",
-        "meaning": "Roof"
-    },
-    {
-        "word": "Wörter",
-        "meaning": "Words"
-    },
-    {
-        "word": "Musik",
-        "meaning": "Music"
-    },
-    {
-        "word": "Vokabeln",
-        "meaning": "Vocabulary"
-    },
-    {
-        "word": "Tee",
-        "meaning": "Tea"
-    },
-    {
-        "word": "Küche",
-        "meaning": "Kitchen"
-    },
-    {
-        "word": "Grammatik",
-        "meaning": "Grammar"
-    },
-    {
-        "word": "Studenten",
-        "meaning": "Students"
-    },
-    {
-        "word": "Brüder",
-        "meaning": "Brothers"
-    },
-    {
-        "word": "Geld",
-        "meaning": "Money"
-    },
-    {
-        "word": "Schwestern",
-        "meaning": "Sisters"
-    },
-    {
-        "word": "Zeit",
-        "meaning": "Time"
-    },
-    {
-        "word": "Mai",
-        "meaning": "May"
-    },
-    {
-        "word": "Abend",
-        "meaning": "Evening"
-    },
-    {
-        "word": "Nacht",
-        "meaning": "Night"
-    },
-    {
-        "word": "Stunde",
-        "meaning": "Hour"
-    },
-    {
-        "word": "Tagen",
-        "meaning": "Days"
-    },
-    {
-        "word": "Montag",
-        "meaning": "Monday"
-    },
-    {
-        "word": "Mitternacht",
-        "meaning": "Midnight"
-    },
-    {
-        "word": "Sommer",
-        "meaning": "Summer"
-    },
-    {
-        "word": "Mineralwasser",
-        "meaning": "Mineral water"
-    },
-    {
-        "word": "Tomatensuppe",
-        "meaning": "Tomato soup"
-    },
-    {
-        "word": "Orangensaft",
-        "meaning": "Orange juice"
-    },
-    {
-        "word": "Suppe",
-        "meaning": "Soup"
-    },
-    {
-        "word": "Steak",
-        "meaning": "Steak"
-    },
-    {
-        "word": "Pizza",
-        "meaning": "Pizza"
-    },
-    {
-        "word": "trinkt",
-        "meaning": "Drinks"
-    },
-    {
-        "word": "bleiben",
-        "meaning": "Stay"
-    },
-    {
-        "word": "ist",
-        "meaning": "Is"
-    },
-    {
-        "word": "leben",
-        "meaning": "Live"
-    },
-    {
-        "word": "kennst",
-        "meaning": "Know"
-    },
-    {
-        "word": "kommt",
-        "meaning": "Comes"
-    },
-    {
-        "word": "hat",
-        "meaning": "Has"
-    },
-    {
-        "word": "bin",
-        "meaning": "Am"
-    },
-    {
-        "word": "haben",
-        "meaning": "Have"
-    },
-    {
-        "word": "sind",
-        "meaning": "Are"
-    },
-    {
-        "word": "habt",
-        "meaning": "Have (plural)"
-    },
-    {
-        "word": "seid",
-        "meaning": "Are (plural)"
-    },
-    {
-        "word": "hast",
-        "meaning": "Have (singular)"
-    },
-    {
-        "word": "bist",
-        "meaning": "Are (singular)"
-    },
-    {
-        "word": "ihm",
-        "meaning": "Him"
-    },
-    {
-        "word": "ihr",
-        "meaning": "Her/You (formal)"
-    },
-    {
-        "word": "ihnen",
-        "meaning": "Them"
-    },
-    {
-        "word": "uns",
-        "meaning": "Us"
-    },
-    {
-        "word": "euch",
-        "meaning": "You (plural)"
-    }
+    {"word": "fragen", "meaning": "to ask"},
+    {"word": "machen", "meaning": "to do/make"},
+    {"word": "kaufen", "meaning": "to buy"},
+    {"word": "suchen", "meaning": "to search/look for"},
+    {"word": "schicken", "meaning": "to send"},
+    {"word": "packen", "meaning": "to pack"},
+    {"word": "zahlen", "meaning": "to pay"},
+    {"word": "bauen", "meaning": "to build"},
+    {"word": "sagen", "meaning": "to say"},
+    {"word": "arbeiten", "meaning": "to work"},
+    {"word": "rauchen", "meaning": "to smoke"},
+    {"word": "baden", "meaning": "to bathe"},
+    {"word": "sparen", "meaning": "to save"},
+    {"word": "wohnen", "meaning": "to live/reside"},
+    {"word": "enden", "meaning": "to end"},
+    {"word": "antworten", "meaning": "to answer"},
+    {"word": "spielen", "meaning": "to play"},
+    {"word": "kosten", "meaning": "to cost"},
+    {"word": "mieten", "meaning": "to rent"},
+    {"word": "reisen", "meaning": "to travel"},
+    {"word": "passen", "meaning": "to fit/suit"},
+    {"word": "duschen", "meaning": "to shower"},
+    {"word": "putzen", "meaning": "to clean"},
+    {"word": "heiraten", "meaning": "to marry"},
+    {"word": "warten", "meaning": "to wait"},
+    {"word": "stellen", "meaning": "to place/put"},
+    {"word": "öffnen", "meaning": "to open"},
+    {"word": "feiern", "meaning": "to celebrate"},
+    {"word": "hören", "meaning": "to hear"},
+    {"word": "tanzen", "meaning": "to dance"},
+    {"word": "Einkaufsliste", "meaning": "shopping list"},
+    {"word": "Stofftasche", "meaning": "cloth bag"},
+    {"word": "Plastiktüte", "meaning": "plastic bag"},
+    {"word": "Wechselgeld", "meaning": "change"},
+    {"word": "Karte", "meaning": "card"},
+    {"word": "EC-Karte", "meaning": "cash card (debit card)"},
+    {"word": "Kreditkarte", "meaning": "credit card"},
+    {"word": "Kundenkarte", "meaning": "customer card"},
+    {"word": "Kassenbon / Kassenzettel", "meaning": "sales receipt"},
+    {"word": "Lebensmittel", "meaning": "groceries"},
+    {"word": "Kleidung", "meaning": "clothes"},
+    {"word": "Elektronik", "meaning": "electronics"},
+    {"word": "Möbel", "meaning": "furniture"},
+    {"word": "Dekoration", "meaning": "decoration"},
+    {"word": "Waage", "meaning": "scales"},
+    {"word": "Kilogramm", "meaning": "kilogram"},
+    {"word": "Gramm", "meaning": "gram"},
+    {"word": "Milliliter", "meaning": "millilitre"},
+    {"word": "Liter", "meaning": "litre"},
+    {"word": "Zentimeter", "meaning": "centimetre"},
+    {"word": "Meter", "meaning": "meter"},
+    {"word": "Länge", "meaning": "length"},
+    {"word": "Höhe", "meaning": "height"},
+    {"word": "Breite", "meaning": "width"},
+    {"word": "Tiefe", "meaning": "depth"},
+    {"word": "Größe", "meaning": "size"},
+    {"word": "Ich trinke", "meaning": "I drink"},
+    {"word": "Wir lernen", "meaning": "We learn"},
+    {"word": "Carlos wohnt", "meaning": "Carlos lives"},
+    {"word": "Mein Freund kommt", "meaning": "My friend comes"},
+    {"word": "Der Apfelkuchen schmeckt", "meaning": "The apple cake tastes"},
+    {"word": "Mein Zimmer ist", "meaning": "My room is"},
+    {"word": "Barbara hat zwei", "meaning": "Barbara has two"},
+    {"word": "viel", "meaning": "Much/Many"},
+    {"word": "hier", "meaning": "Here"},
+    {"word": "fertig", "meaning": "Ready/Finished"},
+    {"word": "nicht", "meaning": "Not"},
+    {"word": "sehr gut", "meaning": "Very good"},
+    {"word": "schnell", "meaning": "Fast"},
+    {"word": "groß", "meaning": "Big"},
+    {"word": "drum", "meaning": "Therefore"},
+    {"word": "hell", "meaning": "Bright"},
+    {"word": "jung", "meaning": "Young"},
+    {"word": "falsch", "meaning": "Wrong"},
+    {"word": "Hunger", "meaning": "Hunger"},
+    {"word": "Ökonomie", "meaning": "Economics"},
+    {"word": "Kuchen", "meaning": "Cake"},
+    {"word": "Humor", "meaning": "Humor"},
+    {"word": "Chemie", "meaning": "Chemistry"},
+    {"word": "Kaffee", "meaning": "Coffee"},
+    {"word": "Dach", "meaning": "Roof"},
+    {"word": "Wörter", "meaning": "Words"},
+    {"word": "Musik", "meaning": "Music"},
+    {"word": "Vokabeln", "meaning": "Vocabulary"},
+    {"word": "Tee", "meaning": "Tea"},
+    {"word": "Küche", "meaning": "Kitchen"},
+    {"word": "Grammatik", "meaning": "Grammar"},
+    {"word": "Studenten", "meaning": "Students"},
+    {"word": "Brüder", "meaning": "Brothers"},
+    {"word": "Geld", "meaning": "Money"},
+    {"word": "Schwestern", "meaning": "Sisters"},
+    {"word": "Zeit", "meaning": "Time"},
+    {"word": "Mai", "meaning": "May"},
+    {"word": "Abend", "meaning": "Evening"},
+    {"word": "Nacht", "meaning": "Night"},
+    {"word": "Stunde", "meaning": "Hour"},
+    {"word": "Tagen", "meaning": "Days"},
+    {"word": "Montag", "meaning": "Monday"},
+    {"word": "Mitternacht", "meaning": "Midnight"},
+    {"word": "Sommer", "meaning": "Summer"},
+    {"word": "Mineralwasser", "meaning": "Mineral water"},
+    {"word": "Tomatensuppe", "meaning": "Tomato soup"},
+    {"word": "Orangensaft", "meaning": "Orange juice"},
+    {"word": "Suppe", "meaning": "Soup"},
+    {"word": "Steak", "meaning": "Steak"},
+    {"word": "Pizza", "meaning": "Pizza"},
+    {"word": "trinkt", "meaning": "Drinks"},
+    {"word": "bleiben", "meaning": "Stay"},
+    {"word": "ist", "meaning": "Is"},
+    {"word": "leben", "meaning": "Live"},
+    {"word": "kennst", "meaning": "Know"},
+    {"word": "kommt", "meaning": "Comes"},
+    {"word": "hat", "meaning": "Has"},
+    {"word": "bin", "meaning": "Am"},
+    {"word": "haben", "meaning": "Have"},
+    {"word": "sind", "meaning": "Are"},
+    {"word": "habt", "meaning": "Have (plural)"},
+    {"word": "seid", "meaning": "Are (plural)"},
+    {"word": "hast", "meaning": "Have (singular)"},
+    {"word": "bist", "meaning": "Are (singular)"},
+    {"word": "ihm", "meaning": "Him"},
+    {"word": "ihr", "meaning": "Her/You (formal)"},
+    {"word": "ihnen", "meaning": "Them"},
+    {"word": "uns", "meaning": "Us"},
+    {"word": "euch", "meaning": "You (plural)"}
 ]
