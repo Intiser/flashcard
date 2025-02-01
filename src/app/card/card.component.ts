@@ -1,6 +1,7 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import wordjs from "../../resources/words.json"
 import { delay } from 'rxjs';
+import { FileService } from '../services/fileservice';
 
 @Component({
   selector: 'app-card',
@@ -11,13 +12,16 @@ export class CardComponent implements OnInit{
   flipped = false;
   selection = 0;
 
-  constructor(){
-
+  constructor(private service:FileService){
+  
   }
   
 
   ngOnInit(): void {
     this.words = wordjs;
+    this.service.getSelectedPage().subscribe((result)=>{
+        this.words = result;
+    })
   }
 
 

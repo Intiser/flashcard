@@ -1,11 +1,34 @@
-<div style="flex-direction: column; height: 100vh; background-color: aliceblue;">
-  <div>
-    Learn
+<div style="height: 100vh; width: 100vw; background-color: aliceblue; flex-direction: row; display: flex;">
+  <div style="width: 20%; height: 100%; flex-direction: column; ">
+    <table class="table table-dark">
+      <tbody>
+        <tr style="cursor: pointer;" (click)="default()">
+          <th scope="row">1</th>
+          <td>Default Mix</td>
+        </tr>
+        <tr style="cursor: pointer;" (click)="a100()">
+          <th scope="row">2</th>
+          <td>A1 (001 -100)</td>
+        </tr>
+        <tr style="cursor: pointer;" (click)="a200()">
+          <th scope="row">3</th>
+          <td>A1 (101 - 200)</td>
+        </tr>
+        <tr style="cursor: pointer;" (click)="a300()">
+          <th scope="row">4</th>
+          <td>A1 (201 - 300)</td>
+        </tr>
+        <tr style="cursor: pointer;" (click)="a400()">
+          <th scope="row">5</th>
+          <td>A1 (301 - 400)</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-  <div>
+  <div style="width: 80%;  height: 100%; flex-direction: column;">
     <app-card>
 
-    </app-card>
+    </app-card> 
   </div>
 </div>
 
