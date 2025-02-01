@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import wordjs from "../../resources/words.json"
 import { delay } from 'rxjs';
 
@@ -76,4 +76,28 @@ export class CardComponent implements OnInit{
    getRandomInt(max:number) {
     return Math.floor(Math.random() * max);
   }
+
+  @HostListener('window:keydown', ['$event'])
+  keyEvent(event: KeyboardEvent) {
+    switch (event.key) {
+      case "ArrowLeft":
+        this.previous();  
+          break;
+      case "ArrowRight":
+        this.next();
+          break;
+      case "ArrowUp":
+        this.random();
+          break;
+      case "ArrowDown":
+          this.random();
+          break;
+  }
+  }
+
+  @HostListener('window:keypress', ['$event'])
+  keyPress(event: KeyboardEvent) {
+     this.toggle();
+  }
 }
+
